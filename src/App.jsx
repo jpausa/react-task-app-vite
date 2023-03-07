@@ -1,11 +1,9 @@
 import TaskList from "./components/taskList";
 
-function App() {
+export default function App() {
   return (
     <>
       <TaskList />
     </>
   );
 }
-
-export default App;
