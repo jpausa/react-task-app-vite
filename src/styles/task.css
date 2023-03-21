@@ -1,0 +1,10 @@
+.task-title {
+  color: chocolate;
+  background-color: aliceblue;
+  padding: 1px 1px 1px 1px;
+}
+
+.task-description {
+  color: burlywood;
+  padding: 0.5px 0.5px 0.5x 0.5px;
+}

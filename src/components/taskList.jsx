@@ -1,5 +1,6 @@
 import { tasks as Data } from "../resources/tasks";
 import { useState, useEffect } from "react";
+import "../styles/task.css";
 
 export default function TaskList() {
   const [tasks, setTasks] = useState([]);
@@ -16,8 +17,8 @@ export default function TaskList() {
     <div>
       {tasks.map((task, index) => (
         <div key={index}>
-          <h2 >{task.title}</h2>
-          <p>{task.description}</p>
+          <h2 className="task-title">{task.title}</h2>
+          <p className="task-description">{task.description}</p>
         </div>
       ))}
     </div>
